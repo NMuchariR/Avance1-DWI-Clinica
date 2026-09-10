@@ -1,0 +1,16 @@
+.appt {
+    border: 2px dashed #B3283D;
+    text-align: center;
+    padding: 40px;
+}
+
+.appt h2 {
+    font-size: 22px;
+    color: #B3283D;
+    margin-bottom: 8px;
+}
+
+.appt p {
+    color: #8A8078;
+    margin-bottom: 20px;
+}

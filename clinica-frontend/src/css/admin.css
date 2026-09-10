@@ -1,0 +1,90 @@
+.dash {
+    display: flex;
+    min-height: 100vh;
+}
+
+.side {
+    width: 220px;
+    background: linear-gradient(180deg, #B3283D, #8C1F30);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 20px;
+}
+
+.side .logo {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.side .user {
+    margin-bottom: auto;
+}
+
+.side .user .name {
+    font-weight: bold;
+}
+
+.side .user .role {
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+.side .btn {
+    background: #FFFFFF;
+    color: #B3283D;
+    margin-top: 20px;
+}
+
+.side .btn:hover {
+    background: #F1E4DC;
+}
+
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.main .head {
+    margin-bottom: 24px;
+}
+
+.main .head h1 {
+    font-size: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.card h2 {
+    font-size: 16px;
+    color: #8A8078;
+    margin-bottom: 8px;
+}
+
+.card .big {
+    font-size: 36px;
+    font-weight: bold;
+    color: #B3283D;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #F1E4DC;
+}
+
+th {
+    color: #8A8078;
+    font-size: 13px;
+}
